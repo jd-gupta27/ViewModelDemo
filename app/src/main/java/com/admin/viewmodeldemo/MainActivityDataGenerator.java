@@ -16,7 +16,7 @@ public class MainActivityDataGenerator extends ViewModel {
         return name;
     }
     public static String onUsernameTextChanged(String text) {
-        Log.d("name",text.toString());
+        Log.d("name",text);
         return text;
     }
     public String getNumber(){
@@ -36,5 +36,6 @@ public class MainActivityDataGenerator extends ViewModel {
     protected void onCleared() {
         super.onCleared();
         Log.d("DataGenerator","View Model Destroyed");
+        System.out.println("DataGenerator");
     }
 }
