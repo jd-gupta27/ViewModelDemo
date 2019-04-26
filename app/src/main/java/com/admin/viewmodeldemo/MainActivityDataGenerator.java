@@ -37,5 +37,6 @@ public class MainActivityDataGenerator extends ViewModel {
         super.onCleared();
         Log.d("DataGenerator","View Model Destroyed");
         System.out.println("DataGenerator");
+        System.out.println("DataGenerator");
     }
 }
