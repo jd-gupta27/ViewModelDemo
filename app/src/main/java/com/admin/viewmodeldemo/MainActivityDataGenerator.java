@@ -38,5 +38,6 @@ public class MainActivityDataGenerator extends ViewModel {
         Log.d("DataGenerator","View Model Destroyed");
         System.out.println("DataGenerator");
         System.out.println("DataGenerator");
+        System.out.println("Working in child branch");
     }
 }
