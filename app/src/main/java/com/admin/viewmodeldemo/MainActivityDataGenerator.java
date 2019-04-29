@@ -39,5 +39,6 @@ public class MainActivityDataGenerator extends ViewModel {
         System.out.println("DataGenerator");
         System.out.println("DataGenerator");
         System.out.println("Working in child branch");
+        System.out.println("Working in master branch");
     }
 }
